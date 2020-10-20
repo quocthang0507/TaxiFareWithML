@@ -1,6 +1,26 @@
 # TaxiFareWithML
 Predict Taxi fare using Machine Learning Model Builder in Visual Studio
 
+This project is based on [https://github.com/dotnet/machinelearning-samples/blob/master/samples/csharp/getting-started/Regression_TaxiFarePrediction](https://github.com/dotnet/machinelearning-samples/blob/master/samples/csharp/getting-started/Regression_TaxiFarePrediction)
+
+| ML.NET version | API type          | Status                        | App Type    | Data type | Scenario            | ML Task                   | Algorithms                  |
+|----------------|-------------------|-------------------------------|-------------|-----------|---------------------|---------------------------|-----------------------------|
+| v1.5.0         | Dynamic API | Up-to-date | Console app | .csv files | Price prediction | Regression | Many algorithms |
+
+## Problem
+
+This problem is centered around predicting the fare of a taxi trip in New York City. At first glance, it may seem to depend simply on the distance traveled. However, taxi vendors in New York charge varying amounts for other factors such as additional passengers, paying with a credit card instead of cash and so on. This prediction can be used in application for taxi providers to give users and drivers an estimate on ride fares.
+
+To solve this problem, we will build an ML model that takes as inputs: 
+* vendor ID
+* rate code
+* passenger count
+* trip time
+* trip distance
+* payment type
+
+and predicts the fare of the ride.
+
 ## Result
 
 | # | Trainer | RSquared | Absolute-loss | Squared-loss | RMS-loss | Duration | #Iteration |
