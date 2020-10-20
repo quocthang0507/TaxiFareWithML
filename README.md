@@ -1,4 +1,4 @@
-# TaxiFareWithML
+# TaxiFareWithML.NET
 Predict Taxi fare using Machine Learning Model Builder in Visual Studio
 
 This project is based on [https://github.com/dotnet/machinelearning-samples/blob/master/samples/csharp/getting-started/Regression_TaxiFarePrediction](https://github.com/dotnet/machinelearning-samples/blob/master/samples/csharp/getting-started/Regression_TaxiFarePrediction)
